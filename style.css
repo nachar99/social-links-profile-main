@@ -1,0 +1,78 @@
+.attribution { 
+    font-size: 11px; text-align: center;
+    color: white;
+ }
+
+ .attribution a  {
+     color: hsl(228, 45%, 44%);
+ }
+
+ #background {
+    background-color: hsl(0, 0%, 8%);
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+ }
+
+ .box {
+    color: white;
+    background-color: hsl(0, 0%, 12%);
+    position: absolute;
+    height: 570px;
+    width: 350px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 3.6%;
+    padding: 4%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+
+ #image {
+    display: block;
+    height: 17.5%;
+    width: 28.5%;
+    border-radius: 50%;
+ }
+
+ @font-face {
+    font-family: 'Inter';
+    src: url(assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+    font-style: normal;
+ }
+
+ #name {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+ }
+
+ #address {
+    color: hsl(75, 94%, 57%);
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    margin-top: -3%;
+ }
+
+ #bio {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    padding-bottom: 3%;
+ }
+
+ .buttons {
+    border: none;
+    width: 85%;
+    margin-bottom: 5%;
+    height: 20%;
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 10px;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+ }
+
+ .buttons:active {
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 8%);
+ }
